@@ -312,3 +312,51 @@ color: #878787;
 
 }
 
+.bread-crumb-sort-by{
+    box-sizing: border-box;
+
+position: absolute;
+width: 200px;
+height: 42px;
+left: 88%;
+top: 224px;
+
+border: 1px solid #000000;
+border-radius: 32px;
+}
+
+.bread-crumb-content-sort-by{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #000000;
+}
+
+.products-list {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    display: flex;
+  }
+
+  .item{
+    padding-left: 1.25rem;
+    
+  }
+
+  .items{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .desc{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 16rem;
+  }
