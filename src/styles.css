@@ -356,7 +356,46 @@ color: #000000;
   }
 
   .desc{
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     max-width: 16rem;
+  }
+
+  .product-name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+padding-top: 0.9rem;
+font-size: 14px;
+line-height: 16px;
+text-transform: capitalize;
+
+color: #878787;
+  }
+
+  .product-vendor{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #000000;
+
+
+  }
+
+  .product-price{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-transform: capitalize;
+padding-top: 1rem;
+padding-bottom: 3.125rem;
+color: #000000;
   }

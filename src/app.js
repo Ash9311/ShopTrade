@@ -8,14 +8,14 @@ function renderProducts(){
     `<div class="item">
     <div class="item-container">
         <div class="item-img">
-            <img src="${product.image_src}" alt="${product.name}" style=" height:349px ;
+            <img src="${product.image_src}" alt="${product.name}" style=" height: ;
             width: 262px;">
         </div>
         <div class="desc">
-            <h2>${product.vendor}</h2>
-            <h2><small>${product.name}</small></h2>
-            <p>${product.price}
-            </p>
+        <span class="product-vendor">${product.vendor}</span>
+            <span class="product-name">${product.name}</span>
+            <span class="product-price">$${product.price}</span>
+            
         </div>
     </div>
 </div>`
