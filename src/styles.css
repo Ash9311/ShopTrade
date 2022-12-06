@@ -399,3 +399,7 @@ padding-top: 1rem;
 padding-bottom: 3.125rem;
 color: #000000;
   }
+
+  .item div:hover{
+    opacity: 0;
+  }
