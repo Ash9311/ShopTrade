@@ -331,6 +331,8 @@ font-style: normal;
 font-weight: 300;
 font-size: 12px;
 line-height: 14px;
+text-align: center;
+    padding-top: 0.75rem;
 /* identical to box height */
 
 text-transform: capitalize;
@@ -401,5 +403,41 @@ color: #000000;
   }
 
   .item div:hover{
-    opacity: 0;
+    /* opacity: 0; */
+  }
+
+  .bread-crumb-All-products,.bread-crumb-Tee-Shirt,.bread-crumb-Denim,.bread-crumb-Sweatshirts,.bread-crumb-Polo,.bread-crumb-Shirt,.bread-crumb-sort-by{
+    cursor: pointer;
+  }
+
+  .ellipse-container{
+    text-align: center;
+  }
+
+  .add-to-cart-container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+border: 1px solid #878787;
+border-radius: 3px;
+  }
+
+  .hover-desc{
+    /* position: absolute; */
+    /* position: absolute;
+    margin-top: -3rem; */
+width: 262px;
+height: 125px;
+background: #FFFFFF;
+  }
+
+  .add-to-cart-title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-transform: capitalize;
+
+color: #000000;
   }
